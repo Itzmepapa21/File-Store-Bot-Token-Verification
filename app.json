@@ -12,18 +12,22 @@
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
       "value": ""
+      "required": false
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "6497757690"
+      "value": ""
+      "required": false
     },
     "APP_ID":{
       "description": "your app id, take it from my.telegram.org",
       "value": ""
+      "required": false
     },
     "DATABASE_URL": {
       "description": "Paste your mongo db url",
-      "value": "url"
+      "value": ""
+      "required": false
     },
     "DATABASE_NAME":{
       "description": "Enter your DATABASE_NAME ",
@@ -32,14 +36,17 @@
     "API_HASH":{
       "description": "your api hash, take it from my.telegram.org",
       "value": ""
+      "required": false
     },
     "CHANNEL_ID":{
       "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
-      "value": "-100"
+      "value": ""
+      "required": false
     },
     "FORCE_SUB_CHANNEL":{
       "description": "id of the channel or group, if you want enable force sub feature else put 0",
-      "value": "0"
+      "value": ""
+      "required": false
     },
     "ADMINS": {
       "description": "A space separated list of user_ids of Admins, they can only create links",
@@ -74,8 +81,7 @@
   ],
   "formation": {
     "worker": {
-      "quantity": 1,
-      "size": "eco"
+      "quantity": 1
     }
   }
 }
