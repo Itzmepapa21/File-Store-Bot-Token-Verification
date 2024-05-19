@@ -1,6 +1,6 @@
 {
   "name": "File Store bot by codeflix",
-  "description": "file sharing bot store posts and it can access by special links",
+  "description": "file sharing bot store posts and it can be accessed by special links",
   "keywords": [
     "telegram",
     "file",
@@ -11,55 +11,56 @@
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
-      "value": ""
+      "value": "",
       "required": false
     },
     "OWNER_ID": {
-      "description": "An integer of consisting of your owner ID",
-      "value": ""
+      "description": "An integer consisting of your owner ID",
+      "value": "",
       "required": false
     },
-    "APP_ID":{
-      "description": "your app id, take it from my.telegram.org",
-      "value": ""
+    "APP_ID": {
+      "description": "Your app ID, take it from my.telegram.org",
+      "value": "",
       "required": false
     },
     "DATABASE_URL": {
-      "description": "Paste your mongo db url",
-      "value": ""
+      "description": "Paste your MongoDB URL",
+      "value": "",
       "required": false
     },
-    "DATABASE_NAME":{
-      "description": "Enter your DATABASE_NAME ",
-      "value": "Cluster0"
-    },
-    "API_HASH":{
-      "description": "your api hash, take it from my.telegram.org",
-      "value": ""
+    "DATABASE_NAME": {
+      "description": "Enter your DATABASE_NAME",
+      "value": "Cluster0",
       "required": false
     },
-    "CHANNEL_ID":{
-      "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
-      "value": ""
+    "API_HASH": {
+      "description": "Your API hash, take it from my.telegram.org",
+      "value": "",
       "required": false
     },
-    "FORCE_SUB_CHANNEL":{
-      "description": "id of the channel or group, if you want enable force sub feature else put 0",
-      "value": ""
+    "CHANNEL_ID": {
+      "description": "Make a channel (database channel), then make the bot as admin in channel, and note its ID",
+      "value": "",
+      "required": false
+    },
+    "FORCE_SUB_CHANNEL": {
+      "description": "ID of the channel or group. If you want to enable the force sub feature, else put 0",
+      "value": "",
       "required": false
     },
     "ADMINS": {
-      "description": "A space separated list of user_ids of Admins, they can only create links",
+      "description": "A space-separated list of user IDs of admins. They can only create links",
       "value": "",
       "required": false
     },
     "SHORTLINK_URL": {
-      "description": "Your Shortner url. eg: shareus.io",
+      "description": "Your Shortener URL. eg: shareus.io",
       "value": "",
       "required": false
     },
     "SHORTLINK_API": {
-      "description": "shortner api key",
+      "description": "Shortener API key",
       "value": "",
       "required": false
     },
@@ -85,4 +86,3 @@
     }
   }
 }
-
