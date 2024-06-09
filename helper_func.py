@@ -16,7 +16,7 @@ from database.database import user_data, db_verify_status, db_update_verify_stat
 #logger = logging.getLogger(__name__)
 #logger.setLevel(logging.INFO)
 
-async def is_subscribed(client, update):
+async def is_subscribed(filter, client, update):
     user_id = update.from_user.id
     
     # Check if FORCE_SUB_CHANNEL is defined
