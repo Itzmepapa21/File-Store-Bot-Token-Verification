@@ -28,7 +28,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "Clusterq")
 #Shortner (token system) 
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "publicearn.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "9cf9e772f966ac9b93915131d64fcf04a74c393f")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "731aab89572f05c3a8f1c03854cf2a6873c771ea")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/Thepower88links/8")
