@@ -5,7 +5,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7034061893:AAHCCZ2JbxTFyiLc4tqcRUlAkO9lgWPHXcg")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7201127119:AAFyPmmC7BbWf2cIzgb3idu9SMb0xmsuXn4")
 
 APP_ID = int(os.environ.get("APP_ID", "21310924"))
 
@@ -13,7 +13,7 @@ APP_ID = int(os.environ.get("APP_ID", "21310924"))
 API_HASH = os.environ.get("API_HASH", "fa4c3f582286d969ab1d08449e9533e8")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002032259915"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002173596441"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "5604835136"))
@@ -23,12 +23,12 @@ PORT = os.environ.get("PORT", "8080")
 
 #Database
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://itzmeproman:itzmeproman@itzmeproman.ccssik6.mongodb.net/?retryWrites=true&w=majority&appName=itzmeproman")
-DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "Clustero0")
 
 #Shortner (token system) 
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "publicearn.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "9cf9e772f966ac9b93915131d64fcf04a74c393f")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "731aab89572f05c3a8f1c03854cf2a6873c771ea")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/Thepower88links/8")
@@ -40,10 +40,10 @@ FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002167731653"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b>Hello {mention} 😏\n𝗧𝗵𝗶𝘀 𝗕𝗼𝘁 𝗜𝘀 𝗠𝗮𝗱𝗲 𝗙𝗼𝗿 : @Powerkami.\n\n𝗔𝗰𝗰𝗲𝘀𝘀 𝗢𝘂𝗿 𝗖𝗵𝗮𝗻𝗻𝗲𝗹𝘀 𝗕𝗲𝗹𝗼𝘄 :\n\n╔═══*｡❅*⋆⍋✧ ✦ ✧⍋⋆*❅｡*═══╗\n\n📌 @Powerprime\n📌@Hentai_Timez\n📌@Anime_Timez\n\n╚═══*｡❅*⋆⍋✧ ✦ ✧⍋⋆*❅｡*═══╝</b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>Hello {mention} 😏\n𝗧𝗵𝗶𝘀 𝗕𝗼𝘁 𝗜𝘀 𝗠𝗮𝗱𝗲 𝗙𝗼𝗿 : @Powerkami.\n\n𝗔𝗰𝗰𝗲𝘀𝘀 𝗢𝘂𝗿 𝗖𝗵𝗮𝗻𝗻𝗲𝗹𝘀 𝗕𝗲𝗹𝗼𝘄 :\n\n╔═══*｡❅*⋆⍋✧ ✦ ✧⍋⋆*❅｡*═══╗\n\n📌 @Powerprime\n📌@Hentai_wallah_tv\n📌@Anime_Timez\n\n╚═══*｡❅*⋆⍋✧ ✦ ✧⍋⋆*❅｡*═══╝</b>")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "7030439873 5604835136 6907639205").split()):
+    for x in (os.environ.get("ADMINS", "7285888015 7030439873 5604835136 6907639205").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
